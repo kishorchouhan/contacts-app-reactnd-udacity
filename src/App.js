@@ -32,14 +32,14 @@ class App extends Component {
         <Route
           exact
           path="/"
-          render={() => {
+          render={() => (
             <ListContacts
               contacts={this.state.contacts}
               onDeleteContact={this.removeContact}
-            />;
-          }}
+            />
+          )}
         />
-        <Route path="/create" Component={CreateContact} />
+        <Route path="/create" component={CreateContact} />
       </div>
     );
   }

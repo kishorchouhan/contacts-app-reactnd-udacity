@@ -1,0 +1,3 @@
+[submodule "reactnd-contacts-server2"]
+	path = reactnd-contacts-server2
+	url = https://github.com/udacity/reactnd-contacts-server2.git
